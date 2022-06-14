@@ -1,0 +1,195 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    position: fixed; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: rgba(14, 15, 41, 0.5);
+    column-gap: 2rem;
+    color: rgb(227, 238, 80);font-size: 1.5rem;
+    font-weight: 600;
+    color: gold;
+    text-transform: uppercase;
+ 
+  
+}
+a{
+    text-decoration:none;
+    color: white;
+    margin-left: 10px;
+   
+}
+ul{
+    margin: auto;
+list-style: none;
+float: right;
+    line-height: 80px;
+    margin-right: 50px;
+
+}
+li{
+    display: inline;   
+}
+.photo{
+background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../img/bg.jpg");
+height: 100vh;
+width: 100%; 
+background-position:center;
+background-size: cover;  
+}
+ .gen {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 100px;
+   
+}
+
+.gen .phrase h1{
+   text-align: center;
+    text-transform: capitalize;
+    color: aliceblue;
+    font-size: 70px;
+    font-style: italic;
+    
+    
+}
+/*about us*/
+
+.about .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 50px;
+    height: 593px;
+}
+
+.about .container .box.txt{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    font-style: italic;
+
+}
+.about .container .txt h1 {
+    color: #ff9900;
+    font-size: 40px;
+
+}
+
+.about .container img{
+    width: 735px;
+    height: 593px;
+}
+.button { 
+    text-transform: capitalize;
+     text-align:center ;
+    width: 30%;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-style:italic;
+    font-weight: bold;
+    background-color: #FF9800;
+    border: none;
+    transition: .5s;
+    color: white;
+}
+.button:hover{
+    letter-spacing: 1px;
+}
+.aboutus{
+    background:  linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),url("../img/ab.jpg");
+    width: 100%;
+    height: 735px;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    gap: 50px;
+    display:flex;
+    justify-content: center;
+    font-style: italic;
+    text-align: center;
+    text-decoration: solid;
+  
+}
+/*lieu */
+.map{
+    width: 100%;
+    height: 100vh;
+}
+
+.close{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: #FF9800;
+}
+/*about us*/
+.us h1{
+color: #FF9800;   
+    font-size: 80px;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.us h1:hover{
+    text-shadow: aliceblue,12px;
+
+
+}
+.imte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 50px;
+    height: 593px;
+}
+ 
+.abt.imte.abttext{
+    
+    width:100%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    font-style: italic;
+     
+}
+.immg img{
+    width: 100%;
+    height:100%;
+
+}
+
+/*reserver*/
+.reservation{
+    background-color: black;
+}
+.butt{
+
+    text-transform: capitalize;
+    text-align:center ;
+   width: 30%;
+   padding: 40px 60px;
+   cursor: pointer;
+   font-style:italic;
+   font-weight: bold;
+   background-color: #FF9800;
+   border: none;
+   transition: .5s;
+   color: white;
+   background-position: center;
+
+}
+     

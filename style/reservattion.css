@@ -1,0 +1,107 @@
+*{margin: 0%;
+    padding: 0%;}
+        /*reservation*/
+    .container{
+        background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../img/070E2D93-6B1C-49E5-8F0C-C28CFA759709.jpeg");
+        height: 100vh;
+        width: 100%; 
+        background-position:center;
+        background-size: cover;  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container form {
+        background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../img/jaune.jpg");
+        background-position:center;
+        background-size: cover;
+        text-align: center;
+        font-size: 12;
+        font-style: italic;
+        border: 5px solid #ff9900;      
+        padding: 30px;
+    }
+    .container form h1 { 
+        color: blanchedalmond;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid ;
+    }
+    .container form input {
+        width: 300px;
+        display: block;
+        margin-bottom: 20px;
+        padding: 10px 20px;
+    }
+    .container form button { 
+        padding: 10px 20px;
+        cursor: pointer;
+        text-transform: uppercase ;
+        font-style:italic;
+        font-weight: bold;
+        background-color: #FF9800;
+        border: none;
+        transition: .5s;
+        color: white;
+    }
+    .container form button:hover{
+        letter-spacing: 1px;
+    }
+
+    .close{
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        font-size: 30px;
+        color: #FF9800;
+    }
+    /*contact*/
+    .genr{
+        display: flex;
+       margin: auto;
+        
+    }
+    .genr img {
+        width: 100%;
+        height: 500px;
+
+    }
+    .contact{
+        background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../img/CONTACT.jpg");
+        height: 100vh;
+        width: 100%; 
+        background-position:center;
+        background-size: cover;  
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .form{
+       
+        width: 250px;
+        height: 300px;
+        text-align: center;
+        display: block;
+    }
+    .frm{
+    height: 80px;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    text-align: center;
+    }
+    .fab,.copy p{
+        color: white   ;
+        font-size: 20px;
+        font-style: italic;
+    }
+    footer{
+        height: 10vh;
+        display: flex;
+        justify-content:space-between ;
+        padding:0  15px;
+        align-items: center;
+        background:  #262626;
+    }
