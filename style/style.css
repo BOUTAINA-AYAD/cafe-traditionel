@@ -27,8 +27,8 @@ a{
 }
 ul{
     margin: auto;
-list-style: none;
-float: right;
+    list-style: none;
+    float: right;
     line-height: 80px;
     margin-right: 50px;
 
